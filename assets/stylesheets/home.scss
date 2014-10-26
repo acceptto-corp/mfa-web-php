@@ -1,0 +1,64 @@
+.canvas{
+  right:0px;
+  bottom:0px;
+  position: absolute;
+  z-index: 100;
+}
+
+.wrapper {
+  width: 80%;
+  max-width:500px;
+  position: relative;
+  padding: 10px 30px 40px 30px;
+  margin-left:10px;
+  margin-top:10px;
+  margin-bottom: 55px;
+  background: #fff;
+  border:solid 1px #aaa;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  z-index: 2000;
+}
+
+.loader {
+  position: absolute;
+  top: 77px;  
+  right: 75px;
+}
+
+.completeform {
+   position: relative;
+}
+
+.navbar-nav li a.login:hover{
+  color:#fff !important
+}
+
+span#error-msg {
+  display: none;
+  font-size: 1.2em;
+  color: #9f4343;
+  font-weight: bold;
+  line-height: 1.4em;
+  margin-bottom: 8px;
+  margin-top: -8px;
+
+}
+
+span.msg {
+  font-weight: bold;
+  color: #8AA832;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  margin-bottom: 8px;
+  margin-top: -8px;
+}
+
+.you{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#797777)";/*IE 8*/
+  text-shadow: 3px 3px 3px #797777;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color=#797777); /*IE 5.5-7*/
+  font-size: 42px;
+}
+

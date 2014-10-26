@@ -1,0 +1,60 @@
+li.open > a.dropdown-toggle,.dropdown-menu li a {
+  color:#222 !important;
+  border:none !important;
+}
+
+.dropdown-menu li a:hover {
+  background:none !important;
+}
+
+.app-icon,.app-store,.google-play {
+  position:absolute;
+  bottom:95px;
+  left:105px;
+  border:none;
+  overflow:hidden;
+}
+
+.app-store {
+  left:10px;
+  bottom:50px;
+}
+
+.google-play {
+  left:150px;
+  bottom:50px;
+}
+
+.copyright{
+  font-size:0.8em;
+  color:#555;
+  margin:7px auto 0 auto;
+  text-align:center;
+}
+
+.scrollup {
+  width: 40px;
+  height: 40px;
+  opacity: 0.3;
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+  display: none;
+  text-indent: -9999px;
+  background: image-url('icon_top.png') no-repeat;
+  z-index: 4000;
+}
+.scrollup:hover {
+  opacity:0.5;
+}
+
+#notice {
+    text-align: center;
+    padding:	.3em .4em;
+    margin:		0 auto .5em;
+    clear:		both;
+    max-width:	46.923em; /* 610/13 */
+    *max-width:	45.750em; /* 610/13.3333 - for IE */
+    border: thin solid #ff0;
+    background: #ffe;
+}
