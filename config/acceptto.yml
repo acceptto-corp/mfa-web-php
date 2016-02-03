@@ -2,14 +2,14 @@ development:
   app_name: Php Default Client
   app_url: https://mfa.acceptto.com
   enable_mfa_url: /request_enable_mfa
-  client_url: http://localhost/phpclient
-  client_path: /home/amir/public_html/phpclient
+  client_url: http://localhost:8081
+  client_path: /Users/mani/Projects/acceptto/mfa-web-php
   server_url: https://mfa.acceptto.com
   auth_url: /api/v8/authenticate
   mfa_check_url: /api/v8/check
   mfa_check_client_url: /mfa_check
-  client_id: "Get Your Client Id From Acceptto Web Site after registration here: https://mfa.acceptto.com/organisation_users/sign_up"
-  client_secret: "Get Your Client Secret from Acceptto Website after registration here: https://mfa.acceptto.com/organisation_users/sign_up"
+  client_id: "Get Your Client Id From Acceptto Website's Dashboard"
+  client_secret: "Get Your Client Secret from Acceptto Website's Dashboard"
   dsn: "mysql:dbname=phpclient;host=localhost"
   db_username: "root"
   db_password: "123456"

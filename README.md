@@ -4,14 +4,20 @@ This is a demo project that demonstrates how to integrate your account system (u
 
 # Setup & Configuration
 
-In order to integrate MFA Web Login into your system you need to register for an Organisation account here:
+If you don't have an Acceptto account and Acceptto mobile application, Download our app and register a new account on it according to this guide:
 
-https://mfa.acceptto.com/organisation_users/sign_up
+https://www.acceptto.com/docs/mobile_app
 
-Then you can create a new application in your organisation dashboard, then you need to configure 'client id' and 'client secret' for that application in config/acceptto.yml
+# Register a new application
+
+Go to our Dashboard Login and Sign In with the account you registered on Acceptto's mobile app. Then go to Applications page, Click on the new application button. It will take you to new application page, for each application you want to integrate with Acceptto you should create an application here. New application will have a uid and secret, You can use these values to configure 'client id' and 'client secret' for that application in config/acceptto.yml
 
 You also need to configure your connection string and database settings in config/acceptto.yml. 
 
 # Database
 
 You can just run sql script in db/init.sql. It is tested with MySQL database.
+
+# Configuration
+
+Make sure to set the paths for client_url and client_path correctly on config/routes.php (according to your system paths)
